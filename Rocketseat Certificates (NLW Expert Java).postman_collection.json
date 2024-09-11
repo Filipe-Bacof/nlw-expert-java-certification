@@ -10,7 +10,7 @@
 			"name": "Students",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Verify If Has Certification",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -31,6 +31,30 @@
 							"path": [
 								"students",
 								"verifyIfHasCertification"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Questions",
+			"item": [
+				{
+					"name": "Find By Technology",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/questions/technology/JAVA",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"questions",
+								"technology",
+								"JAVA"
 							]
 						}
 					},
