@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"filipebacof@gmail.com\",\r\n    \"technology\": \"nodejs\"\r\n}",
+							"raw": "{\r\n    \"email\": \"filipebacof@gmail.com\",\r\n    \"technology\": \"JAVA\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -31,6 +31,34 @@
 							"path": [
 								"students",
 								"verifyIfHasCertification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify Certification Answers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"filipebacof@gmail.com\",\r\n    \"technology\": \"JAVA\",\r\n    \"questionsAnswers\": [\r\n        {\r\n            \"questionID\": \"c5f02721-6dc3-4fa6-b46d-6f2e8dca9c66\",\r\n            \"alternativeID\": \"993a7d37-62a0-4040-810d-d667e3f7a891\"\r\n        },\r\n        {\r\n            \"questionID\": \"b0ec9e6b-721c-43c7-9432-4d0b6eb15b01\",\r\n            \"alternativeID\": \"9da03a4e-3c8d-4a32-87e1-9898938435c2\"\r\n        },\r\n        {\r\n            \"questionID\": \"f85e9434-1711-4e02-9f9e-7831aa5c743a\",\r\n            \"alternativeID\": \"d3e51a56-9b97-4bb8-9827-8bcf89f4b276\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/students/certification/answer",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"students",
+								"certification",
+								"answer"
 							]
 						}
 					},
