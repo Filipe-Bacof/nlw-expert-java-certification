@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.filipebacof.certification_nlw.modules.students.dto.StudentCertificationAnswerDTO;
 import com.filipebacof.certification_nlw.modules.students.dto.VerifyHasCertificationDTO;
-import com.filipebacof.certification_nlw.modules.students.entities.CertificationStudentEntity;
 import com.filipebacof.certification_nlw.modules.students.useCases.StudentCertificationAnswersUseCase;
 import com.filipebacof.certification_nlw.modules.students.useCases.VerifyIfHasCertificationUseCase;
 

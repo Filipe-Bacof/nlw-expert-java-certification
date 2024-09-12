@@ -91,6 +91,29 @@
 			]
 		},
 		{
+			"name": "Certifications",
+			"item": [
+				{
+					"name": "Top 10 By Grade",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/ranking/top10",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"ranking",
+								"top10"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Ping",
 			"request": {
 				"method": "GET",
